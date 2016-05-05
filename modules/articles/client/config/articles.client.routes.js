@@ -1,6 +1,6 @@
-(function () {
+(function() {
   'use strict';
-
+  ////////////////////////////////////////////////////////////
   angular
     .module('articles.routes')
     .config(routeConfig);
