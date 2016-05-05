@@ -1,13 +1,16 @@
-(function () {
+(function() {
   'use strict';
-
+  ///////////////////////////////////////////
   angular
     .module('articles')
     .controller('ArticlesController', ArticlesController);
 
-  ArticlesController.$inject = ['$scope', '$state', 'articleResolve', '$window', 'Authentication'];
+  ArticlesController.$inject = ['$scope', '$state', 'articleResolve',
+    '$window', 'Authentication'
+  ];
 
-  function ArticlesController($scope, $state, article, $window, Authentication) {
+  function ArticlesController($scope, $state, article, $window,
+    Authentication) {
     var vm = this;
 
     vm.article = article;
