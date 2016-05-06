@@ -20,7 +20,7 @@
       title: 'List Articles',
       state: 'articles.list'
     });
-
+    //////////////////////////////////////////////////////////////////
     // Add the dropdown create item
     menuService.addSubMenuItem('topbar', 'articles', {
       title: 'Create Article',
